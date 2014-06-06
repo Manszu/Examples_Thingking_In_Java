@@ -1,0 +1,12 @@
+{
+  "C:\\Program Files\\Java\\jdk1.8.0_05\\jre\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jdk1.8.0_05\\jre\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "D:\\GIT\\Thinking in Java_ Examples\\Exercise_1_1\\src": {
+    "location": "D:\\GIT\\Thinking in Java_ Examples\\Exercise_1_1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\GIT\\Thinking in Java_ Examples\\Exercise_1_1\\src\u0027. Skipped."
+  }
+}
