@@ -17,3 +17,9 @@ char c= ch;
 }
 //only x avalilable
 }
+// Hidding-  illegal
+{
+int x=12;
+{ int x=96; //Illegal
+}
+}
