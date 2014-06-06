@@ -55,6 +55,6 @@ int storage (String s){
 boolean flag() {return true;}
 double naturalLogBase() {return 2.718; }
 void nothing() {return; }
-void nothing2() {}'
+void nothing2() {}
 
 
