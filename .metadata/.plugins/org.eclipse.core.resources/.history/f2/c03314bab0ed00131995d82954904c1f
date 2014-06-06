@@ -9,8 +9,7 @@ public class Ex1_1 {
 		sf.increment();
 		int i=0;
 		i=l.storage("mananana");
-		int ix=2;
-		Integer iy=ix;
+		Integer ix=2;
 		
 		
 		System.out.println("x="+ sf.x + "ch=" +xx.x);

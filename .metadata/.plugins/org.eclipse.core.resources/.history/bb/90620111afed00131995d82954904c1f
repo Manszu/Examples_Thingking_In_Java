@@ -1,5 +1,5 @@
 
-import java.util.*;
+
 public class Ex1_1 {
 
 	public static void main(String[] args) {
@@ -9,11 +9,10 @@ public class Ex1_1 {
 		sf.increment();
 		int i=0;
 		i=l.storage("mananana");
-		int ix=2;
-		Integer iy=ix;
+		sf.x=24;
+		xx.x=34;
 		
-		
-		System.out.println("x="+ sf.x + "ch=" +xx.x);
+		System.out.println("i="+ i + "ch=" +l.ch);
 	}
 
 }

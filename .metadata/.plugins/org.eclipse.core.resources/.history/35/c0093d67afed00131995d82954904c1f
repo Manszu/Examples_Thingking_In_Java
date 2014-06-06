@@ -1,5 +1,5 @@
 
-//exercise 1_7 , 1_8
+//exercise 1_7
 public class Incrementable {
 	static int x;
 	static void increment() {StaticTest.i++;}
