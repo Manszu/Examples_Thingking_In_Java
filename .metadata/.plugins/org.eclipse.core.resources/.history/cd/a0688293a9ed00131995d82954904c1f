@@ -1,0 +1,18 @@
+
+class Random{
+	int i;
+	char ch;
+	int storage(String s) {
+		return s.length() *2;
+		}
+}
+public class Ex1_1 {
+
+	public static void main(String[] args) {
+		Random l = new Random();
+		int i=0;
+		i=l.storage("mananana")
+		System.out.println("i="+ l.i + "ch=" +l.ch);
+	}
+
+}

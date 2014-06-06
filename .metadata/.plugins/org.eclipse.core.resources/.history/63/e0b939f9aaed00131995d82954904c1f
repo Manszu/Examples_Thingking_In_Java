@@ -3,9 +3,8 @@
 public class Ex1_1 {
 
 	public static void main(String[] args) {
+		Incrementable b = new Incrementable();
 		Storage l = new Storage();
-		Incrementable sf= new Incrementable();
-		sf.increment();
 		int i=0;
 		i=l.storage("mananana");
 		System.out.println("i="+ i + "ch=" +l.ch);

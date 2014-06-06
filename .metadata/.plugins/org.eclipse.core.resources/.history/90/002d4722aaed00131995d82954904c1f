@@ -1,0 +1,10 @@
+
+public class Storage {
+	class Random{
+		int i;
+		char ch;
+		int storage(String s) {
+			return s.length() *2;
+			}
+	}
+}
