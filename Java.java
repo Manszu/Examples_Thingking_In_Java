@@ -56,5 +56,26 @@ boolean flag() {return true;}
 double naturalLogBase() {return 2.718; }
 void nothing() {return; }
 void nothing2() {}
+// static keyword
+class StaticTest {
+static int i=47;
+}
+//there is one piece of storage for StaticTest.i
+StaticTest st1= new StaticTest();
+StaticTest st2= new StaticTest(); //st1.i and st2.i have the same value of 47 since they refer to the same piece of memory
+StaticTest.i++; // You can also refer directly to class The operator adds one to the variable. At this point, both st1.i and st2.i will have the value 48.
+//static methods
+class Incrementable {
+	static void increment() {StaticTest.i++; }
+}
+
+Incrementable sf= new Incrementable();
+sf.increment();
+Incrementable.increment();
+
+
+	
+
+
 
 
