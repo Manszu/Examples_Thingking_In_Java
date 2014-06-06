@@ -1,0 +1,13 @@
+
+class Random{
+	int i=2;
+	char ch=4;
+}
+public class Ex1_1 {
+
+	public static void main(String[] args) {
+		Random l;
+		System.out.println("i="+ l.i + "ch=" +l.ch);
+	}
+
+}

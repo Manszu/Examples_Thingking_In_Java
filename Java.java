@@ -72,6 +72,9 @@ class Incrementable {
 Incrementable sf= new Incrementable();
 sf.increment();
 Incrementable.increment();
+// compiling
+javac HelloDate.javac
+java HelloDate
 
 
 	
