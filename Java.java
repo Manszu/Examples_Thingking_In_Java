@@ -30,3 +30,31 @@ String s= new String ("a string");
 //Classes
 class ATypeName {/*class body goes here*/}
 ATypeName a= new ATypeName();
+// Example of a class with some fields
+class DataOnly {
+int i;
+double d;
+boolean b;
+}
+
+data.i=47;
+//It is pssible also that your object might containt other objects that contain data you'd like to modify
+myPlane.leftTank.capacity=100;
+//Methods
+objectName.methodName(arg 1, arg 2, arg 3);
+int x= a.f();
+//argument listt
+int storage(string s) {
+return s.length() *2;
+}
+//method return number of bytes in string
+int storage (String s){
+	return s.length() *2;
+}
+//return objects
+boolean flag() {return true;}
+double naturalLogBase() {return 2.718; }
+void nothing() {return; }
+void nothing2() {}'
+
+
