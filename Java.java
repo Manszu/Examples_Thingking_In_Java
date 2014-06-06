@@ -23,3 +23,10 @@ int x=12;
 { int x=96; //Illegal
 }
 }
+// Scope of objects
+{
+String s= new String ("a string");
+} end of scope - reference s vanishes, the String object is still ocuppying a memory
+//Classes
+class ATypeName {/*class body goes here*/}
+ATypeName a= new ATypeName();
